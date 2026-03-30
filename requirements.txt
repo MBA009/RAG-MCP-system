@@ -1,0 +1,42 @@
+# Core
+anthropic>=0.25.0
+qdrant-client>=1.9.0
+openai>=1.0.0           # for text-embedding-3-small (or use local)
+sentence-transformers>=3.0.0  # local embeddings alternative
+
+# Ingestion
+pypdf2>=3.0.0
+python-docx>=1.0.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+markdown>=3.5.0
+watchdog>=4.0.0         # file watcher for auto-sync
+
+# Storage
+sqlite-fts4             # FTS5 is built into Python's sqlite3
+python-dateutil>=2.8.0
+
+# MCP Server
+mcp>=1.0.0              # Anthropic's official MCP SDK
+
+# Re-ranking
+rank-bm25>=0.2.2
+
+# CLI
+rich>=13.0.0
+typer>=0.12.0
+
+# Web UI
+fastapi>=0.110.0
+uvicorn>=0.29.0
+python-multipart>=0.0.9
+
+# Better re-ranking (cross-encoder)
+# sentence-transformers already listed above — cross-encoder comes with it
+
+# New data sources
+notion-client>=2.2.0
+youtube-transcript-api>=0.6.2
+
+# Windows-friendly env var loading
+python-dotenv>=1.0.0
