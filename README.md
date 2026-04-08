@@ -20,8 +20,8 @@ A personal AI-powered knowledge base. Ingest your PDFs, notes, bookmarks, code f
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/second-brain.git
-cd second-brain
+git clone https://github.com/MBA009/RAG-MCP-system.git
+cd RAG-MCP-system
 pip install -r requirements.txt
 ```
 
